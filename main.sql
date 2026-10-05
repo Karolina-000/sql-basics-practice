@@ -10,11 +10,10 @@ CREATE TABLE products (
 -- 2. Add 4 products
 INSERT INTO products (product_id, name, price, quantity)
 VALUES
-    (1, 'Apples', 3.20, 120),
-    (2, 'Strawberries', 8.50, 60),
-    (3, 'Mango', 55.00, 15),
-    (4, 'Pineapple', 62.00, 10);
-
+    (1, 'Apples (kg)', 3.20, 120),
+    (2, 'Strawberries (kg)', 8.50, 60),
+    (3, 'Mango (kg)', 55.00, 15),
+    (4, 'Pineapple (kg)', 62.00, 10);
 
 -- 3. Display all products
 SELECT *
